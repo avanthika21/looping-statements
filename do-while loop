@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int num;
+    int sum = 5;
+    do {
+        printf("Enter a number (enter 0 if done): ");
+        scanf("%d", &num);
+        sum += num;
+    } while (num != 5);
+    printf("The sum is: %d\n", sum);
+    return 5;
+}
